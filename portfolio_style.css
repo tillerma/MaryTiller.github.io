@@ -1,0 +1,301 @@
+
+body {
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+header {
+    position: relative;
+    z-index: 4;
+    height: 475px;
+    width: auto;
+    padding-top: 30px;
+}
+
+h1 {
+    font-family: "dosis", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+}
+
+h2 {
+    font-family: "dosis", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color:black;
+}
+
+h3 {
+    font-family: "dosis", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+h4 {
+    padding-top: 10px;
+    font-family: "dosis", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+
+nav {
+    position: relative;
+    z-index: 4;
+    background-color: rgba(184, 181, 178, 0.481);
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 120%;
+    height: 40px;
+    width: 100%;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+nav a {
+    color:black;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.4s ease;
+}
+
+nav a:hover{
+    background-color: rgba(133, 123, 112, 0.481);
+    cursor:pointer;
+}
+
+.clouds{
+    z-index: 2;
+    width: 100%;
+    display: grid;
+    align-items: left;
+    position: absolute;
+    top: 20px;
+    left: -300px;
+}
+
+.clouds img{
+    animation: cloud 13s linear infinite;
+}
+
+@keyframes cloud{
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    30%{
+        
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    95%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(120vw);
+        opacity: 0;
+    }
+}
+
+.clouds img:nth-child(1){
+    animation-delay: 3s;
+    width: 120px;
+}
+
+.clouds img:nth-child(2){
+    animation-delay: 1.5s;
+    width: 120px;
+}
+
+.clouds img:nth-child(3){
+    animation-delay: 0s;
+    width: 150px;
+}
+
+.clouds img:nth-child(4){
+    animation-delay: 6.75s;
+    width: 120px;
+}
+
+.clouds img:nth-child(5){
+    animation-delay: 5.25s;
+    width: 120px;
+}
+
+.clouds img:nth-child(6){
+    animation-delay: 3.75s;
+    width: 140px;
+}
+
+.clouds img:nth-child(7){
+    animation-delay: 2s; 
+    width: 120px;
+}
+
+
+.clouds2{
+    z-index: 3;
+    width: 100%;
+    display: grid;
+    align-items: left;
+    position: absolute;
+    top: 20px;
+    left: -300px;
+}
+
+.clouds2 img{
+    animation: cloud2 13s linear infinite;
+}
+
+@keyframes cloud2{
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    30%{
+        
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    95%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(120vw);
+        opacity: 0;
+    }
+}
+
+.clouds2 img:nth-child(1){
+    animation-delay: 7.5s;
+    width: 140px;
+}
+
+.clouds2 img:nth-child(2){
+    animation-delay: 5.75s;
+    width: 120px;
+}
+
+.clouds2 img:nth-child(3){
+    animation-delay: 10.5s;
+    width: 120px;
+}
+
+.clouds2 img:nth-child(4){
+    animation-delay: 9s;
+    width: 140px;
+}
+
+.clouds2 img:nth-child(5){
+    animation-delay: 1s;
+    width: 130px;
+}
+
+.clouds2 img:nth-child(6){
+    animation-delay: 8s;
+    width: 120px;
+}
+
+.clouds2 img:nth-child(7){
+    animation-delay: 6.25s; 
+    width: 120px;
+}
+
+
+.clouds3{
+    z-index: 3;
+    width: 100%;
+    display: grid;
+    align-items: left;
+    position: absolute;
+    top: 20px;
+    left: -300px;
+}
+
+.clouds3 img{
+    animation: cloud3 13s linear infinite;
+}
+
+@keyframes cloud3{
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    30%{
+        
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    95%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(120vw);
+        opacity: 0;
+    }
+}
+
+.clouds3 img:nth-child(1){
+    animation-delay: 12s;
+    width: 150px;
+}
+
+.clouds3 img:nth-child(2){
+    animation-delay: 8.5s;
+    width: 120px;
+}
+
+.clouds3 img:nth-child(3){
+    animation-delay: 4.25s;
+    width: 150px;
+}
+
+.clouds3 img:nth-child(4){
+    animation-delay: 2.5s;
+    width: 120px;
+}
+
+.clouds3 img:nth-child(5){
+    animation-delay: 11.5s;
+    width: 140px;
+}
+
+.clouds3 img:nth-child(6){
+    animation-delay: 10s;
+    width: 120px;
+}
+
+.clouds3 img:nth-child(7){
+    animation-delay: 12.5s; 
+    width: 120px;
+}
